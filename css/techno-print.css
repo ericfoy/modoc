@@ -1,0 +1,31 @@
+html {
+    font-size: 80%;
+}
+
+ul.primary {
+    line-height: .5;
+}
+
+th {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 0.8rem;
+    line-height: 90%;
+}
+
+td {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+h5 {
+    line-height: 1.1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.block {
+    border-style: none;
+    margin: 0;
+}

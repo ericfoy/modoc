@@ -3,7 +3,7 @@
 /**
  * Implements template_preprocess_page().
  */
-function monochrome_preprocess_page(&$variables) {
+function techno_preprocess_page(&$variables) {
   backdrop_add_library('system', 'opensans', TRUE);
 
   $node = menu_get_object();
@@ -20,20 +20,15 @@ function monochrome_preprocess_page(&$variables) {
       $variables['classes'][] = backdrop_clean_css_identifier('term-page-' . $term->name);
     }
   }
-  // CSS class for node preview page.
   elseif (substr($path, 0, 13) == 'node/preview/') {
     $variables['classes'][] = 'node-preview-page';
-  }
-  // Admin pages.
-  elseif (substr($path, 0, 6) == 'admin/') {
-    $variables['classes'][] = 'admin-page';
   }
 }
 
 /**
  * Implements template_preprocess_node().
  */
-function monochrome_preprocess_node(&$variables) {
+function techno_preprocess_node(&$variables) {
   if ($variables['status'] == NODE_NOT_PUBLISHED) {
     $name = node_type_get_name($variables['type']);
     $variables['title_suffix']['unpublished_indicator'] = array(
@@ -46,7 +41,7 @@ function monochrome_preprocess_node(&$variables) {
 /**
  * Implements template_preprocess_layout().
  */
-function monochrome_preprocess_layout(&$variables) {
+function techno_preprocess_layout(&$variables) {
   if (isset($variables['layout_info']['flexible'])) {
     // Add css class to layout.
     $variables['classes'][] = 'layout-' . backdrop_clean_css_identifier($variables['layout_info']['name']);
@@ -56,7 +51,7 @@ function monochrome_preprocess_layout(&$variables) {
 /**
  * Implements theme_breadcrumb().
  */
-function monochrome_breadcrumb($variables) {
+function techno_breadcrumb($variables) {
   $breadcrumb = $variables['breadcrumb'];
   $output = '';
   if (!empty($breadcrumb)) {
@@ -72,25 +67,16 @@ function monochrome_breadcrumb($variables) {
 /**
  * Implements hook_css_alter().
  */
-function monochrome_css_alter(&$css) {
+function techno_css_alter(&$css) {
   unset($css['core/modules/node/css/node.preview.css']);
 }
 
 /**
  * Implements hook_ckeditor_css_alter().
  */
-function monochrome_ckeditor_css_alter(&$css, $format) {
+function techno_ckeditor_css_alter(&$css, $format) {
   // This theme ships with a custom copy of that file, that otherwise contains
   // unwanted body styles (font, color).
   $key = array_search('core/modules/ckeditor/css/ckeditor-iframe.css', $css);
   unset($css[$key]);
-}
-
-/**
- * Implements hook_form_BASE_FORM_ID_alter().
- */
-function monochrome_form_node_form_alter(&$form, &$form_state, $form_id) {
-  if (!empty($form['title']['#default_value'])) {
-    unset($form['title']['#attributes']['autofocus']);
-  }
 }

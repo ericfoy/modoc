@@ -57,9 +57,6 @@
   -webkit-transform: rotate(-135deg);
   transform: rotate(-135deg);
 }
-.dark-mode .comment .comment-arrow {
-  background: #444;
-}
 [dir="rtl"] .comment .comment-arrow {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
@@ -73,9 +70,6 @@
   background-color: #fcfcfc;
   flex-grow: 1;
   min-width: 65%;
-}
-.dark-mode .comment .comment-text {
-  background-color: #444;
 }
 .comment .comment-text .permalink {
   font-size: 1.3rem;
@@ -115,9 +109,6 @@
 .comment-unpublished .comment-text {
   background: #f7f7f7 url("../img/mono-warn.png");
 }
-.dark-mode .comment-unpublished .comment-text {
-  background: #474747 url("../img/mono-warn-dark.png");
-}
 li.comment-forbidden > span {
   margin: 0 .5rem 0 0;/* LTR */
   line-height: 2.2;
@@ -131,9 +122,6 @@ li.comment-forbidden > span {
   padding: 0 .5rem;
   background: #fff;
   border: 1px solid;
-}
-.dark-mode .comments li.comment-forbidden > span {
-  background: #333;
 }
 .comment-preview {
   background-color: inherit;

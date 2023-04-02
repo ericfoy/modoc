@@ -13,10 +13,7 @@
   padding: 0;
   background-color: #eee;
 }
-.dark-mode .block-views-promoted-cards-block {
-  color: #fff;
-  background-color: #3e3e3e;
-}
+
 .block-views-promoted-cards-block {
   max-width: none;
   margin-left: -4vw;
@@ -40,9 +37,7 @@
 .view-promoted-cards .views-view-grid .views-grid-box:hover {
   background-color: #f8f8f8;
 }
-.dark-mode .view-promoted-cards .views-view-grid .views-grid-box:hover {
-  background-color: #2d2d2d;
-}
+
 .view-promoted-cards .views-view-grid .views-grid-box img {
   -webkit-filter: saturate(25%);
   filter: saturate(25%);

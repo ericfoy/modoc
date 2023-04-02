@@ -1,11 +1,6 @@
-# Monochrome
+# Techno
 
-No colors, no distraction. Let your content be the main actor on your site.
-
-Monochrome ships with a dark-mode switcher, also for anonymous (works with
- Javascript but without cookies).
-
-With a touch of retro and velour.
+Designed with the use of tables and blocks in mind. When you need to optimize screen real estate utilization.
 
 
 ## Installation
@@ -15,17 +10,19 @@ With a touch of retro and velour.
 
 ## Issues
 
-Bugs and Feature requests should be reported in the [Issue Queue](https://github.com/backdrop-contrib/monochrome/issues)
+Bugs and Feature requests should be reported in the [Issue Queue](https://github.com/backdrop-contrib/techno/issues)
 
 
 ## Current Maintainers
 
-- [Indigoxela](https://github.com/indigoxela)
+- [ericfoy](https://github.com/ericfoy)
 
 
 ## Credits
 
-Written for Backdrop by Indigoxela
+Inspired by the Monochrome theme, adapted and refactored by ericfoy.
+
+Thanks, Indigoxela, for the springboard.
 
 The Lekton font used for headings has been designed at ISIA Urbino,
  and is inspired by some of the typefaces used on the Olivetti typewriters.

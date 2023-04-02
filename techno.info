@@ -1,0 +1,26 @@
+name = Techno
+description = Tables and Blocks.
+type = theme
+backdrop = 1.x
+
+stylesheets[all][] = css/techno-fonts.css
+stylesheets[all][] = css/contents.css
+stylesheets[all][] = css/base.css
+stylesheets[all][] = css/b-forms.css
+stylesheets[all][] = css/comments.css
+stylesheets[screen][] = css/maintenance.css
+
+; Include a style sheet in the rich-text editor.
+ckeditor_stylesheets[] = css/techno-fonts.css
+ckeditor_stylesheets[] = css/ckeditor-iframe.css
+ckeditor_stylesheets[] = css/contents.css
+
+; *** added by -efoy
+stylesheets[print][] = css/techno-print.css
+;***
+
+
+; Faked, in case it's needed: Added by Backdrop CMS packaging script on 2021-07-27
+project = techno
+version = 1.x-1.0.0
+timestamp = 1627398318
