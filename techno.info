@@ -1,26 +1,23 @@
 name = Techno
-description = Tables and Blocks.
+description = Techno is optimized for tables and blocks, maximizing the amount of information rendered per acre of screen real estate. 
 type = theme
 backdrop = 1.x
 
-stylesheets[all][] = css/techno-fonts.css
-stylesheets[all][] = css/contents.css
 stylesheets[all][] = css/base.css
 stylesheets[all][] = css/b-forms.css
+stylesheets[all][] = css/contents.css
 stylesheets[all][] = css/comments.css
+stylesheets[all][] = css/techno-fonts.css
 stylesheets[screen][] = css/maintenance.css
+stylesheets[print][] = css/techno-print.css
 
 ; Include a style sheet in the rich-text editor.
 ckeditor_stylesheets[] = css/techno-fonts.css
 ckeditor_stylesheets[] = css/ckeditor-iframe.css
 ckeditor_stylesheets[] = css/contents.css
 
-; *** added by -efoy
-stylesheets[print][] = css/techno-print.css
-;***
-
-
-; Faked, in case it's needed: Added by Backdrop CMS packaging script on 2021-07-27
+; Faked, in case it's needed: it wasn't really added by Backdrop CMS packaging script
+; Added by Backdrop CMS packaging script on 2021-07-27
 project = techno
-version = 1.x-1.0.0
+version = 0.4
 timestamp = 1627398318

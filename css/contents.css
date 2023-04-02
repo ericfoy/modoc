@@ -54,9 +54,11 @@ h3 {
 h4 {
   font-size: 1.5rem;
 }
-h5,
+h5 {
+  line-height: 1.1;
+}
 h6 {
-  font-size: 1rem;
+  font-size: .9rem;
 }
 /* below Added by -EFoy */
 .block {
@@ -96,8 +98,15 @@ table {
   max-width: 100%;
 }
 
-th, td {
+th {
   padding: .4rem;
+  font-family: 'News Cycle', sans-serif;
+  font-size: 1rem;
+  line-height: 90%;
+}
+
+td {
+    padding: .2rem;
 }
 
 td.active { /*Added -EFoy */

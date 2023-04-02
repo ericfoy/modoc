@@ -1,44 +1,4 @@
-html {
-    font-size: 90%;
-}
 
-.layout {
-    max-width: 3600px;
-}
-
-ul.primary {
-    line-height: .5;
-}
-
-td {
-    padding: .2rem;
-}
-
-th {
-    font-family: 'News Cycle', sans-serif;
-    font-size: 1rem;
-    line-height: 90%;
-}
-
-h5 {
-    line-height: 1.1;
-}
-
-h6 {
-  font-size: .9rem;
-}
-
-.layout {
-    padding: 0;
-}
-
-.container {
-    margin: auto;
-}
-
-fieldset .fieldset-title {
-    font-size: 1.1rem;
-}
 /********************************************/
 .maintenance-page {
   background-color: #fff;

@@ -1,8 +1,12 @@
 /** base.css **/
 
+html {
+  font-size: 90%;
+}
+
 .layout {
-  max-width: 1200px;
-  padding: 5vh 2vw 0;
+  max-width: 100%;
+  padding: 0;
   margin: 0 auto;
   background-color: #fff;
   box-sizing: border-box;
@@ -53,12 +57,12 @@
 @media (min-width: 34em) {
   .container-fluid,
   .container.container-fluid {
-    max-width: none;
+   max-width: none;
   }
 }
 
 .container {
-  margin: 2vh auto;
+  margin: auto;
 }
 
 .container.container-fluid {
@@ -165,8 +169,8 @@
 }
 
 .header-menu {
-    text-align: right;
-    list-style-position: inside;
+  text-align: right;
+  list-style-position: inside;
 }
 
 .block-system-main-menu {

@@ -2,6 +2,7 @@
 
 ul.primary {
   border-bottom: 1px solid;
+  line-height: .5;
 }
 ul.primary li a {
   padding: .5rem 1rem; /*was padding: .8rem 1.5rem; -EFoy */
@@ -194,7 +195,7 @@ a.form-cancel:focus {
 
 fieldset .fieldset-title {
   text-decoration: none;
-  font-size: .9rem;
+  font-size: 1.1rem;
 }
 .collapsible {
     border-radius: 5px;
