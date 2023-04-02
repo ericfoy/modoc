@@ -10,6 +10,22 @@
     url('../fonts/Lekton-Bold.ttf') format('truetype'),
     url('../fonts/Lekton-Bold.svg#Lekton-Bold') format('svg');
 }
+@font-face {
+  font-family: Lekton;
+  font-style: lighter;
+  font-weight: 400;
+  src:
+    url('../fonts/Lekton-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Lekton;
+  font-style: italic;
+  font-weight: 400;
+  src:
+    url('../fonts/Lekton-Italic.ttf') format('truetype');
+}
+
 
 /* benchnine-regular - latin */
 @font-face {
