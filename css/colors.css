@@ -1,0 +1,243 @@
+/*** colors.css  **/
+
+.layout {
+  background-color: #ffffff;
+}
+
+.l-footer {
+  color: #ffffff;
+  background: #828282 url("../img/monochrome-medium.png");
+}
+
+.l-footer * {
+  color: #ffffff;
+}
+
+.block {
+  border-color: #000098;
+}
+
+.block-hero {
+  color: #ffffff;
+}
+
+.block-hero * {
+  color: #ffffff;
+}
+
+.menu-toggle-button-icon,
+.menu-toggle-button-icon::before,
+.menu-toggle-button-icon::after {
+  background: #222222;
+}
+
+.block-system-main-menu ul.menu a,
+.block-system-main-menu ul.menu a:hover {
+  color: #502020;
+}
+
+.block-system-main-menu ul.menu a:hover {
+  background-color: #red;
+}
+
+.block-hero-no-image {
+  background: #828282 url("../img/monochrome-medium.png");
+}
+
+tr.even {
+  background-color: inherit;
+}
+
+tr.odd {
+  background-color: #d4e6f7; /* was #fafafa; -EFoy */
+}
+
+ul.links.inline a {
+  background: #f7f7f7 url("../img/monochrome.png");
+}
+
+.unpublished,
+.node.unpublished {
+  background-color: inherit;
+}
+
+.unpublished-indicator {
+  background: #f7f7f7 url("../img/mono-warn.png");
+}
+
+.breadcrumb ol a {
+  background: #abcdef;
+}
+
+.block-system-header {
+  background: #abcdee;
+}
+
+.block-system-main-menu {
+  background: #abcdef;
+}
+
+.menu-dropdown ul a:hover,
+.menu-dropdown ul a:focus,
+.menu-dropdown ul a:active,
+.menu-dropdown ul a.highlighted {
+  background: #f1f100;
+}
+
+.menu-dropdown li:hover {
+  background-color:#f1f100;
+}
+
+.menu-dropdown ul {
+  background: #abcdef;
+}
+
+ul.primary li a {
+  background: #828282 url("../img/monochrome-medium.png");
+  color: #ffffff;
+}
+
+ul.primary li a:hover {
+  color: #000000;
+  background: #f7f7f7 url("../img/monochrome.png");
+}
+
+ul.primary li.active a {
+  background: #ffffff;
+}
+
+ul.primary li.active a,
+ul.primary li.active a:hover {
+  color: #000000;
+  border-color: #000000;
+}
+
+ul.primary li.active a:hover {
+  background: #f7f7f7 url("../img/monochrome.png");
+}
+
+form {
+  color: #222222;
+}
+
+input[disabled] {
+  background: #f4f4f4;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  background: #f7f7f7 url("../img/monochrome.png");
+  color: #000098;
+}
+
+input.button-primary {
+  color: #ffffff;
+  background: #828282 url("../img/monochrome-medium.png");
+}
+
+.form-delete {
+  background: #f7f7f7 url("../img/mono-warn.png");
+}
+
+.vertical-tab-link {
+  color: #000000;
+}
+
+.vertical-tab-item {
+  background: #f7f7f7 url("../img/monochrome.png");
+}
+
+.vertical-tab-selected strong,
+.vertical-tab-selected .fieldset-legend {
+  color: inherit;
+}
+
+.vertical-tab-selected.vertical-tab-item {
+  background-image: none;
+}
+
+.vertical-tab-link:hover,
+.vertical-tab-link:focus {
+  background: #ffffff;
+}
+
+.views-ui-display-tab-bucket {
+    background-color: #d2e7d7 !important;
+}
+
+.views-display-top {
+    background-color: #dedede;
+}
+
+.progress .filled {
+  background: #828282 url("../img/monochrome-medium.png");
+}
+
+.ui-dialog .ui-dialog-buttonpane button,
+.ui-dialog .ui-dialog-buttonpane button:hover,
+.ui-dialog .ui-dialog-buttonpane button:focus {
+  background: #ffffff;
+  color: #000000;
+}
+
+.node-preview-container {
+  background: #828282 url("../img/monochrome-medium.png");
+  color: #ffffff;
+}
+
+input.node-preview-save-button.form-submit,
+input.node-preview-save-button.form-submit:hover {
+  color: #ffffff;
+  background: #2a2a2a url("../img/monochrome-semidark.png");
+}
+
+.node-preview-backlink,
+.node-preview-backlink:hover {
+  color: #ffffff;
+}
+
+body {
+  color: #222222;
+  background: #f7f7f7 url("../img/monochrome.png");
+}
+
+a {
+  color: #990000; /* was #444; -EFoy */
+  text-decoration: none; /* was underline; -EFoy */
+}
+
+h2 a,
+h3 a {
+  color: #666666;
+}
+
+a:hover,
+a:focus {
+  color: #009900; /* was #000; -EFoy */
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #666666;
+}
+
+pre {
+  background: #fcfcfc url("../img/monochrome-light.png");
+}
+
+td.active { /*Added -EFoy */
+  background-color: #d0ebd7;
+}
+
+figure {
+  background: #fcfcfc url("../img/monochrome-light.png");
+}
+
+blockquote::before {
+  color: #777777;
+}
+
+.cke_editable {
+  background: #ffffff;
+}

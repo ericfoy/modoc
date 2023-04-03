@@ -2,24 +2,7 @@
 
 body {
   font: 1rem/1.7 "Open Sans", sans-serif;
-  color: #222;
-  background: #f7f7f7 url("../img/monochrome.png");
   background-attachment: fixed;
-}
-
-a {
-  color: #990000; /* was #444; -EFoy */
-  text-decoration: none; /* was underline; -EFoy */
-}
-
-h2 a,
-h3 a {
-  color: #666;
-}
-
-a:hover,
-a:focus {
-  color: #009900; /* was #000; -EFoy */
 }
 
 hr {
@@ -36,7 +19,6 @@ h1,h2,h3,h4,h5,h6 {
   font-family: Lekton, serif;
   font-weight: 700;
   margin: .5rem 0;
-  color: #666;
 }
 
 h1 {
@@ -63,7 +45,6 @@ h6 {
 /* below Added by -EFoy */
 .block {
     border-style: solid;
-    border-color: blue;
     border-width: 1px;
     border-radius: 7px;
     padding-left: 10px;
@@ -88,7 +69,6 @@ pre {
   max-width: 100%;
   overflow: auto;
   padding: 1rem;
-  background: #fcfcfc url("../img/monochrome-light.png");
   border: 1px solid;
 }
 
@@ -109,15 +89,10 @@ td {
     padding: .2rem;
 }
 
-td.active { /*Added -EFoy */
-    background-color: #d0ebd7;
-}
-
 figure {
   display: table;
   margin: 1rem 0;
   padding: 1rem;
-  background: #fcfcfc url("../img/monochrome-light.png");
 }
 
 blockquote {
@@ -133,11 +108,6 @@ blockquote::before {
   position: absolute;
   top: 0;
   left: 0; /* LTR */
-  color: #777;
-}
-
-.cke_editable {
-  background: #fff;
 }
 
 @media (min-width: 1025px) {
