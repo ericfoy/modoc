@@ -22,7 +22,7 @@ Bugs and Feature requests should be reported in the [Issue Queue](https://github
 
 Inspired by the Monochrome theme, adapted and refactored by ericfoy.
 
-Thanks, Indigoxela, for the springboard.
+Thanks, @Indigoxela, for the springboard.
 
 The Lekton font used for headings has been designed at ISIA Urbino,
  and is inspired by some of the typefaces used on the Olivetti typewriters.
