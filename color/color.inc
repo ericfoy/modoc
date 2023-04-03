@@ -36,17 +36,17 @@ $info = array(
         'border' => '#000098',
       ),
     ),
-    'green' => array(
-      'title' => t('Grass Green'),
+    'navy' => array(
+      'title' => t('Navy'),
       'colors' => array(
-        'text' => '#222222',
-        'headerbg' => '#abcdeg',
-        'menubg' => '#abcdef',
-        'menuhl' => '#f1f100',
-        'tablerow' => '#d4e6f7',
-        'link' => '#009900',
-        'active' => '#d0ebd7',
-        'border' => '#000098',
+        'text' => '#08262C ',
+        'headerbg' => '#E8B00F',
+        'menubg' => '#088199',
+        'menuhl' => '#E8B00F',
+        'tablerow' => '#C6CCD0',
+        'link' => '#003B4F',
+        'active' => '#C6CCD0',
+        'border' => '#003B4F',
       ),
     ),
     'brown' => array(
