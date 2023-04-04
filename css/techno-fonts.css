@@ -29,7 +29,7 @@
 
 /* benchnine-regular - latin */
 @font-face {
-  font-family: BenchNine;
+  font-family: 'BenchNine';
   font-style: normal;
   font-weight: 400;
   src: url('../fonts/benchnine-v14-latin-regular.eot'); /* IE9 Compat Modes */

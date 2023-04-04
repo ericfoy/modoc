@@ -1,0 +1,178 @@
+/*** Fixed Colors ***/
+/*   These colors are not tracked by the Color module.   */
+
+.l-footer * {
+  color: #fffffe;
+}
+
+.block-hero {
+  color: #fffffe;
+}
+
+.block-hero * {
+  color: #fffffe;
+}
+
+/******************************
+.menu-toggle-button-icon,
+.menu-toggle-button-icon::before,
+.menu-toggle-button-icon::after {
+  background: #222222;
+}
+******************************/
+
+.block-hero-no-image {
+  background: #828282 url("../img/monochrome-medium.png");
+}
+
+tr.even {
+  background-color: inherit;
+}
+
+.unpublished,
+.node.unpublished {
+  background-color: inherit;
+}
+
+.unpublished-indicator {
+  background: #f7f7f7 url("../img/mono-warn.png");
+}
+
+/********************************
+form {
+  color: #222222;
+}
+********************************/
+
+input[disabled] {
+  background: #f4f4f4;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  background: #dbdbd3 url("../img/monochrome.png");
+  color: #000098;
+}
+
+input.button-primary {
+  color: #010101;
+  background: #d9f7d7;
+}
+
+.form-delete {
+  background: #f7f7f7 url("../img/mono-warn.png");
+}
+
+.vertical-tab-link {
+  color: #000000;
+}
+
+.vertical-tab-item {
+  background: #f7f7f7 url("../img/monochrome.png");
+}
+
+.vertical-tab-selected strong,
+.vertical-tab-selected .fieldset-legend {
+  color: inherit;
+}
+
+.vertical-tab-selected.vertical-tab-item {
+  background-image: none;
+}
+
+.vertical-tab-link:hover,
+.vertical-tab-link:focus {
+  background: #eef2e4;
+}
+
+.views-ui-display-tab-bucket {
+    background-color: #d2e7d7 !important;
+}
+
+.views-display-top {
+    background-color: #dedede;
+}
+
+.progress .filled {
+  background: green;
+}
+
+.ui-dialog .ui-dialog-buttonpane button,
+.ui-dialog .ui-dialog-buttonpane button:hover,
+.ui-dialog .ui-dialog-buttonpane button:focus {
+  background: #dbdbd3;
+  color: #000000;
+}
+
+.node-preview-container {
+  background: #828282 url("../img/monochrome-medium.png");
+  color: #fffffe;
+}
+
+input.node-preview-save-button.form-submit,
+input.node-preview-save-button.form-submit:hover {
+  color: #fffffe;
+  background: #2a2a2a url("../img/monochrome-semidark.png");
+}
+
+.node-preview-backlink,
+.node-preview-backlink:hover {
+  color: #fffffe;
+}
+
+
+ul.links.inline a {
+  background: #f7f7f7 url("../img/monochrome.png");
+}
+
+ul.primary li a {
+  background: #828282 url("../img/monochrome-medium.png");
+  color: #fefefe;
+}
+
+ul.primary li a:hover {
+  color: #000000;
+  background: #fefefe url("../img/monochrome.png");
+}
+
+ul.primary li.active a {
+  background: #fefefe;
+}
+
+ul.secondary a.active {
+  background: #d9f7d7;
+}
+
+ul.primary li.active a,
+ul.primary li.active a:hover {
+  color: #000001;
+  border-color: #000001;
+}
+
+ul.primary li.active a:hover {
+  background: #dbdbd3 url("../img/monochrome.png");
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+pre {
+  background: #fcfcfc url("../img/monochrome-light.png");
+}
+
+figure {
+  background: #fcfcfc url("../img/monochrome-light.png");
+}
+
+blockquote::before {
+  color: #777777;
+}
+
+.cke_editable {
+  background: #fffffe;
+}

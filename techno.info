@@ -8,6 +8,7 @@ stylesheets[all][] = css/b-forms.css
 stylesheets[all][] = css/contents.css
 stylesheets[all][] = css/comments.css
 stylesheets[all][] = css/techno-fonts.css
+stylesheets[all][] = css/fixed-colors.css
 stylesheets[all][] = css/colors.css
 stylesheets[screen][] = css/maintenance.css
 stylesheets[print][] = css/techno-print.css
@@ -24,5 +25,5 @@ settings[color] = true
 ; Faked, in case it's needed: it wasn't really added by Backdrop CMS packaging script
 ; Added by Backdrop CMS packaging script on 2021-07-27
 project = techno
-version = 0.5
+version = 0.6
 timestamp = 1627398318

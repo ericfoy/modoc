@@ -1,15 +1,13 @@
-html {
-    font-size: 80%;
-}
+@media print {
 
 ul.primary {
     line-height: .5;
 }
 
 th {
-    font-family: 'News Cycle', sans-serif;
-    font-size: 0.8rem;
-    line-height: 90%;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 1rem;
+    line-height: 80%;
 }
 
 td {
@@ -28,4 +26,5 @@ a {
 .block {
     border-style: none;
     margin: 0;
+}
 }
