@@ -1,8 +1,5 @@
 <?php
 
-// Put the logo path into JavaScript for the live preview.
-//backdrop_add_js(array('color' => array('logo' => theme_get_setting('logo', 'colihaut'))), 'setting');
-
 $info = array(
   // Available colors and color labels used in theme.
   'fields' => array(
@@ -135,23 +132,23 @@ $info = array(
   'copy' => array(),
 
   // Gradient definitions.
-  'gradients' => array(),
+  //'gradients' => array(),
 
   // Color areas to fill (x, y, width, height).
-  'fill' => array(),
+  //'fill' => array(),
 
   // Coordinates of all the theme slices (x, y, width, height)
   // with their filename as used in the stylesheet.
-  'slices' => array(),
+  //'slices' => array(),
 
   // Reference color used for blending. Matches the base.png's colors.
   'blend_target' => '#ffffff',
 
   // Preview files.
-  'preview_css' => 'color/preview.css',
-  'preview_js' => 'color/preview.js',
-  'preview_html' => 'color/preview.html',
+  //'preview_css' => 'color/preview.css',
+  //'preview_js' => 'color/preview.js',
+  //'preview_html' => 'color/preview.html',
 
   // Base file for image generation.
-  'base_image' => 'color/base.png',
+  //'base_image' => 'color/base.png',
 );

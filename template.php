@@ -3,7 +3,7 @@
 /**
  * Implements template_preprocess_page().
  */
-function techno_preprocess_page(&$variables) {
+function modoc_preprocess_page(&$variables) {
   backdrop_add_library('system', 'opensans', TRUE);
 
   $node = menu_get_object();
@@ -28,7 +28,7 @@ function techno_preprocess_page(&$variables) {
 /**
  * Implements template_preprocess_node().
  */
-function techno_preprocess_node(&$variables) {
+function modoc_preprocess_node(&$variables) {
   if ($variables['status'] == NODE_NOT_PUBLISHED) {
     $name = node_type_get_name($variables['type']);
     $variables['title_suffix']['unpublished_indicator'] = array(
@@ -41,7 +41,7 @@ function techno_preprocess_node(&$variables) {
 /**
  * Implements template_preprocess_layout().
  */
-function techno_preprocess_layout(&$variables) {
+function modoc_preprocess_layout(&$variables) {
   if (isset($variables['layout_info']['flexible'])) {
     // Add css class to layout.
     $variables['classes'][] = 'layout-' . backdrop_clean_css_identifier($variables['layout_info']['name']);
@@ -51,7 +51,7 @@ function techno_preprocess_layout(&$variables) {
 /**
  * Implements theme_breadcrumb().
  */
-function techno_breadcrumb($variables) {
+function modoc_breadcrumb($variables) {
   $breadcrumb = $variables['breadcrumb'];
   $output = '';
   if (!empty($breadcrumb)) {
@@ -67,14 +67,14 @@ function techno_breadcrumb($variables) {
 /**
  * Implements hook_css_alter().
  */
-function techno_css_alter(&$css) {
+function modoc_css_alter(&$css) {
   unset($css['core/modules/node/css/node.preview.css']);
 }
 
 /**
  * Implements hook_ckeditor_css_alter().
  */
-function techno_ckeditor_css_alter(&$css, $format) {
+function modoc_ckeditor_css_alter(&$css, $format) {
   // This theme ships with a custom copy of that file, that otherwise contains
   // unwanted body styles (font, color).
   $key = array_search('core/modules/ckeditor/css/ckeditor-iframe.css', $css);

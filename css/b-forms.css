@@ -5,15 +5,15 @@ ul.primary {
   line-height: .5;
 }
 ul.primary li a {
-  padding: .5rem 1rem; /*was padding: .8rem 1.5rem; -EFoy */
+  padding: .5rem 1rem;
   position: relative;
   margin-bottom: -1px;
-  border-radius: 5px; /* added -EFoy */
+  border-radius: 5px;
 }
 
 ul.primary li.active a,
 ul.primary li.active a:hover {
-  border-radius: 5px; /* added -EFoy */
+  border-radius: 5px;
 }
 
 .form-item,
@@ -71,8 +71,8 @@ button,
   font: 1rem/1.5 sans-serif;
   border: 1px solid;
   margin: .5rem 1rem .5rem 0;/* LTR */
-  padding: .2rem .5rem; /*was padding: .5rem 1rem -EFoy */
-  border-radius: 5px; /* added -EFoy */
+  padding: .2rem .5rem;
+  border-radius: 5px;
 }
 [dir="rtl"] button,
 [dir="rtl"] [type="button"],
@@ -102,9 +102,9 @@ a.button,
 a.form-cancel {
   font-weight: bold;
   margin: 0 1rem 0 0;/* LTR */
-  padding: .2rem .5rem; /*was padding: .5rem 1rem -EFoy */
+  padding: .2rem .5rem;
   border: 1px solid;
-  border-radius: 5px; /* added -EFoy */
+  border-radius: 5px;
   text-decoration: none;
 }
 

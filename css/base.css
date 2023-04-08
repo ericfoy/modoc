@@ -343,12 +343,12 @@ ul.links.inline li {
 
 ul.links.inline a {
   border: 1px solid;
-  border-radius: 7px; /*border-radius added by -EFoy */
+  border-radius: 7px;
   padding: 4px 6px;
   display: inline-block;
   text-decoration: none;
   white-space: nowrap;
-  margin: 0 0 0 0; /* changed by -EFoy */
+  margin: 0 0 0 0;
 }
 
 [dir="rtl"] ul.links.inline a {

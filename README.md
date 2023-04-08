@@ -1,4 +1,4 @@
-# Techno
+# Modoc
 
 Designed with the use of tables and blocks in mind. When you need to optimize screen real estate utilization.
 
@@ -10,7 +10,7 @@ Designed with the use of tables and blocks in mind. When you need to optimize sc
 
 ## Issues
 
-Bugs and Feature requests should be reported in the [Issue Queue](https://github.com/backdrop-contrib/techno/issues)
+Bugs and Feature requests should be reported in the [Issue Queue](https://github.com/backdrop-contrib/modoc/issues)
 
 
 ## Current Maintainers

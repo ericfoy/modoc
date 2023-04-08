@@ -11,7 +11,7 @@ hr {
 }
 
 ol,ul {
-  margin: 0 0.5rem; /* was 1rem; -EFoy */
+  margin: 0 0.5rem;
   padding: 0 2rem;
 }
 

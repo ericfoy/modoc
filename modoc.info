@@ -1,5 +1,5 @@
-name = Techno
-description = Techno is optimized for tables and blocks, maximizing the amount of information rendered per acre of screen real estate. 
+name = Modoc
+description = Modoc is optimized for tables and blocks, maximizing the amount of information rendered per acre of screen real estate. 
 type = theme
 backdrop = 1.x
 
@@ -7,14 +7,14 @@ stylesheets[all][] = css/base.css
 stylesheets[all][] = css/b-forms.css
 stylesheets[all][] = css/contents.css
 stylesheets[all][] = css/comments.css
-stylesheets[all][] = css/techno-fonts.css
+stylesheets[all][] = css/typography.css
 stylesheets[all][] = css/fixed-colors.css
 stylesheets[all][] = css/colors.css
 stylesheets[screen][] = css/maintenance.css
-stylesheets[print][] = css/techno-print.css
+stylesheets[print][] = css/print.css
 
 ; Include a style sheet in the rich-text editor.
-ckeditor_stylesheets[] = css/techno-fonts.css
+ckeditor_stylesheets[] = css/typography.css
 ckeditor_stylesheets[] = css/ckeditor-iframe.css
 ckeditor_stylesheets[] = css/contents.css
 
@@ -22,8 +22,6 @@ ckeditor_stylesheets[] = css/contents.css
 ; menu. Color module provides our defaults, so we just register a dummy setting.
 settings[color] = true
 
-; Faked, in case it's needed: it wasn't really added by Backdrop CMS packaging script
-; Added by Backdrop CMS packaging script on 2021-07-27
-project = techno
-version = 0.6
-timestamp = 1627398318
+project = modoc
+version = 0.7
+
