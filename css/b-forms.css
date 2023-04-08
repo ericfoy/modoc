@@ -196,16 +196,17 @@ fieldset .fieldset-title {
 .search-block-form > div {
   display: flex;
 }
-
+/*
 .search-block-form .form-item,
-.search-block-form .form-actions,
 .search-block-form .form-actions input {
   margin: 0;
 }
-
+*/
+.search-block-form .form-actions {
+  margin: 1rem 1rem 0 1rem;
+}
 .search-block-form .button-primary {
-  padding: .455rem;
-  border-left: 0;
+  padding: 0 1rem;
 }
 
 .ui-dialog .ui-dialog-buttonpane button,
