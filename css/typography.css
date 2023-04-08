@@ -1,0 +1,56 @@
+@font-face {
+  font-family: Lekton;
+  font-style: normal;
+  font-weight: 700;
+  src: url('Lekton-Bold.eot'); /* Old IE */
+  src:
+    url('../fonts/Lekton-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Lekton-Bold.woff2') format('woff2'),
+    url('../fonts/Lekton-Bold.woff') format('woff'),
+    url('../fonts/Lekton-Bold.ttf') format('truetype'),
+    url('../fonts/Lekton-Bold.svg#Lekton-Bold') format('svg');
+}
+@font-face {
+  font-family: Lekton;
+  font-style: lighter;
+  font-weight: 400;
+  src:
+    url('../fonts/Lekton-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Lekton;
+  font-style: italic;
+  font-weight: 400;
+  src:
+    url('../fonts/Lekton-Italic.ttf') format('truetype');
+}
+
+
+/* benchnine-regular - latin */
+@font-face {
+  font-family: 'BenchNine';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/benchnine-v14-latin-regular.eot'); /* IE9 Compat Modes */
+  src: 
+       url('../fonts/benchnine-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/benchnine-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/benchnine-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/benchnine-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/benchnine-v14-latin-regular.svg#BenchNine') format('svg'); /* Legacy iOS */
+}
+
+/* news-cycle-regular - latin */
+@font-face {
+  font-family: 'News Cycle';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/news-cycle-v20-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/news-cycle-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/news-cycle-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/news-cycle-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/news-cycle-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/news-cycle-v20-latin-regular.svg#NewsCycle') format('svg'); /* Legacy iOS */
+}
