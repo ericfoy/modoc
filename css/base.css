@@ -73,11 +73,15 @@ html {
   margin-right: calc(-4vw + .9375rem);
 }
 
+.modoc-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .logo {
   display: block;
-  max-width: 300px;
-  float: left;
-  padding-right: 2rem;
+  flex: auto;
 }
 
 .item-list ul {
@@ -95,7 +99,7 @@ html {
 .site-name {
   font-family: Lekton, serif;
   font-weight: 700;
-  font-size: 1.9rem;
+  font-size: 2.2rem;
   margin: 1rem 0;
   padding: 0;
   line-height: 2rem;
@@ -105,9 +109,16 @@ html {
   text-decoration: none;
 }
 
+.site-slogan {
+  font-family: Lekton, serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  
+}
+
 .breadcrumb {
-  padding: 0;
-  margin: 1.5rem 0;
+  padding: .2rem .2rem;
+  margin: .2rem 0;
   font-size: .9rem;
 }
 
@@ -150,8 +161,25 @@ html {
 }
 
 .header-menu {
-  text-align: right;
-  list-style-position: inside;
+  flex: auto;
+  text-align: center;
+}
+
+ul.links {
+  list-style-type: none;
+}
+
+ul.links a {
+  font: 1rem/1.5 sans-serif;
+  border: 1px solid;
+  margin: .5rem 1rem .5rem 0;
+  padding: .2rem .5rem;
+  border-radius: 5px;
+}
+ul.links a:hover,
+ul.links a:focus {
+  box-shadow: 2px 2px 0;
+  outline: none;
 }
 
 .block-system-main-menu {
@@ -388,16 +416,16 @@ ul.links.inline .comment-forbidden a {
 
 @media (min-width: 1025px) {
   .name-and-slogan {
-    margin-bottom: 2rem;
+    flex: 60%;
   }
   .site-name {
     font-size: 2.2rem;
   }
   .block-hero .block-title {
-    font-size: 3em;
+    font-size: 2.2rem;
   }
   .block-hero .block-content {
-    font-size: 160%;
+    font-size: 140%;
   }
 }
 
