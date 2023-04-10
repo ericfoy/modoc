@@ -18,6 +18,8 @@ ckeditor_stylesheets[] = css/typography.css
 ckeditor_stylesheets[] = css/ckeditor-iframe.css
 ckeditor_stylesheets[] = css/contents.css
 
+stylesheets[all][] = css/globals.css
+
 ; We need at least one setting for the theme settings page to appear in the
 ; menu. Color module provides our defaults, so we just register a dummy setting.
 settings[color] = true

@@ -77,11 +77,13 @@ html {
   display: flex;
   flex-direction: row;
   align-items: center;
+  overflow: hidden;
 }
 
 .logo {
   display: block;
   flex: auto;
+  padding: .5rem;
 }
 
 .item-list ul {
@@ -162,7 +164,10 @@ html {
 
 .header-menu {
   flex: auto;
-  text-align: center;
+}
+.header-menu ul {
+  margin: 0;
+  padding: 0;
 }
 
 ul.links {
