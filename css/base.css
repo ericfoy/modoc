@@ -170,21 +170,40 @@ html {
   padding: 0;
 }
 
+.leaf,
+a.leaf{
+  text-align: center;
+}
+
+.leaf,
 ul.links {
   list-style-type: none;
 }
 
+.leaf a,
 ul.links a {
   font: 1rem/1.5 sans-serif;
+  display: block;
+  width: auto;
   border: 1px solid;
   margin: .5rem 1rem .5rem 0;
   padding: .2rem .5rem;
   border-radius: 5px;
 }
+
+.leaf a:hover,
 ul.links a:hover,
 ul.links a:focus {
   box-shadow: 2px 2px 0;
   outline: none;
+}
+
+a.nolink, a.separator, 
+a.nolink:hover, a.separator:hover {
+  text-decoration: none;
+  cursor: default;
+  border: none;
+  box-shadow: none;
 }
 
 .block-system-main-menu {
