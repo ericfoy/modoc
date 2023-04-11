@@ -5,6 +5,7 @@ In future releases of the Modoc Theme, we hope to provide these settings
 in the theme settings user interface. Until then, you will need to make these 
 changes manualy be editing this file.
 */
+
 /* Set the Page Width... */
 /* -------------------------------------------------------------------- */
 /* You may edit the line below to set the maximum displayed width of    */
@@ -17,7 +18,7 @@ changes manualy be editing this file.
 .layout {max-width: 1000px;}
 
 
-/* Set the Page Width... */
+/* Set the Base Font Size... */
 /* -------------------------------------------------------------------- */
 /* You may edit the line below to set the basic font size for your site.*/
 /* You may enter units of % (percentage of the browsers built-in base   */
