@@ -1,4 +1,4 @@
-/** b-forms.css **/
+/***  b-forms.css  ***/
 
 ul.primary {
   border-bottom: 1px solid;
@@ -68,7 +68,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-  font: 1rem/1.5 sans-serif;
+  /*font: 1rem/1.5 sans-serif;*/
   border: 1px solid;
   margin: .5rem 1rem .5rem 0;/* LTR */
   padding: .2rem .5rem;
@@ -91,6 +91,11 @@ button:focus,
 [type="submit"]:focus {
   box-shadow: 2px 2px 0;
   outline: none;
+  text-decoration: none;
+}
+
+.button a:hover {
+  text-decoration: none;
 }
 
 input.button-primary:hover,
@@ -266,7 +271,6 @@ input.node-preview-save-button.form-submit:hover {
     padding-bottom: 90px;
   }
 }
-
 
 .draggable a.tabledrag-handle,
 [dir="rtl"] .draggable a.tabledrag-handle {

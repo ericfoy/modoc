@@ -21,20 +21,20 @@ Bugs and Feature requests should be reported in the [Issue Queue](https://github
 ## Credits
 
 Inspired by the Monochrome theme, adapted and refactored by ericfoy.
+Thanks, [Indigoxela](https://github.com/indigoxela), for the springboard.
 
-Thanks, @Indigoxela, for the springboard.
-
-The Lekton font is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at: http://scripts.sil.org/OFL
+The Lekton font was designed at [ISIA Urbino.](https://isiaurbino.net/istituto/english)
 
 The News Cycle font is Copyright (c) 2010-2011, Nathan Willis (nwillis@glyphography.com),
-with Reserved Font Name “News Cycle.” This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at: http://scripts.sil.org/OFL
+with Reserved Font Name “News Cycle.” 
 
-The Benchnine font is Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), 
-with Reserved Font Name ‘BenchNine.’ This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at: http://scripts.sil.org/OFL
+The Benchnine font is Copyright (c) 2012, Vernon Adams (vern@newtypography.co.uk), 
+with Reserved Font Name ‘BenchNine.’ 
 
+The Montserrat font is Copyright (c) 2011, The [Montserrat Project Authors](https://github.com/JulietaUla/Montserrat). 
+
+All fonts are licensed under the SIL Open Font License, Version 1.1.
+All font licenses are available at: http://scripts.sil.org/OFL
 
 ## License
 

@@ -84,6 +84,7 @@ body,
 /*---------------------------*/
 /*   Menu Background         */
 
+.leaf a,
 .breadcrumb ol a,
 .block-system-main-menu {
   background: #c8d7d2;
@@ -100,24 +101,28 @@ body,
 /*---------------------------*/
 /*   Menu Highlight          */
 
+.leaf a:hover,
+.header-menu a:hover,
 .block-system-main-menu ul.menu a:hover {
   background-color: #d2e1dc;
 }
 
+.button:hover,
 .menu-dropdown ul a:hover,
 .menu-dropdown ul a:focus,
 .menu-dropdown ul a:active,
 .menu-dropdown ul a.highlighted {
   background: #d2e1dc;
 }
-
+/*
 .menu-dropdown li:hover {
   background-color:#d2e1dc;
 }
-
+*/
 /*---------------------------*/
 /*      Menu Text            */
 
+.leaf a,
 .breadcrumb ol a,
 .block-system-main-menu ul.menu a,
 .block-system-main-menu ul.menu a:hover {
