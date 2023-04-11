@@ -16,25 +16,25 @@ ol,ul {
 }
 
 h1,h2,h3,h4,h5 {
-  font-family: Lekton, serif;
+/*  font-family: Lekton, serif;
   font-weight: 700;
-  margin: .5rem 0;
+*/  margin: .5rem 0;
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.1rem;
   line-height: 1.15;
 }
 h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 1.4;
 }
 h3 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 1.3;
 }
 h4 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 h5 {
   font-size: 1rem;
@@ -45,7 +45,7 @@ h6 {
   font-size: .9rem;
   margin: .5rem 0;
 }
-/* below Added by -EFoy */
+/***** below Added by -EFoy */
 .block {
     border-style: solid;
     border-width: 1px;
@@ -66,13 +66,27 @@ h6 {
 }
 
 .block-system-messages,
-.no-border{
+.no-border,
+.border-0 {
     border-style: none;
 }
-.fat-border{
+.border-2{
     border-width: 2px;
 }
-/* above Added by -EFoy */
+.border-3{
+    border-width: 3px;
+}
+.border-5{
+    border-width: 5px;
+}
+.border-7{
+    border-width: 7px;
+}
+.border-10{
+    border-width: 10px;
+}
+/***** above Added by -EFoy */
+
 pre {
   max-width: 100%;
   overflow: auto;

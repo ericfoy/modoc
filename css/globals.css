@@ -5,7 +5,6 @@ In future releases of the Modoc Theme, we hope to provide these settings
 in the theme settings user interface. Until then, you will need to make these 
 changes manualy be editing this file.
 */
-
 /* Set the Page Width... */
 /* -------------------------------------------------------------------- */
 /* You may edit the line below to set the maximum displayed width of    */
@@ -15,7 +14,23 @@ changes manualy be editing this file.
 /* https://www.w3schools.com/cssref/css_units.php                       */ 
 /* -------------------------------------------------------------------- */
 
-.layout {max-width: 2000px;}
+.layout {max-width: 1000px;}
+
+
+/* Set the Page Width... */
+/* -------------------------------------------------------------------- */
+/* You may edit the line below to set the basic font size for your site.*/
+/* You may enter units of % (percentage of the browsers built-in base   */
+/* which is usually 16px.                                               */
+/* You may also specify the exact pixel height of the base size.        */
+/*                                                                      */
+/*     example: html { font-size: 16px; }                               */
+/*                                                                      */
+/* For information-intensive applications, I like to run 90%            */
+/* See https://www.w3schools.com/css/css_font_size.asp                  */
+/* -------------------------------------------------------------------- */
+
+html { font-size: 100%; }
 
 
 /* PAGE BODY TEXT... */
@@ -25,10 +40,10 @@ changes manualy be editing this file.
 /*                                                                      */
 /* body {font: 1rem/1.7 'Open Sans', sans-serif;}                       */
 /* body {font: 1rem/1.7 'Montserrat', sans-serif;}                      */
-/* body {font: 1rem/1.7 'Open Sans', sans-serif;}                       */
+/* body {font: 1rem/1.7 'Lekton', serif;}                       */
 /* -------------------------------------------------------------------- */
 
-body {font: 1rem/1.7 'Montserrat', sans-serif;}
+body {font: 1rem/1.7 'Montserrat', sans-serif;} 
 
 
 /* NODE TITLE and BLOCK HEADINGS TEXT... */
@@ -41,7 +56,7 @@ body {font: 1rem/1.7 'Montserrat', sans-serif;}
 /* h1,h2,h3,h4,h5 {font-family: 'Open Sans', serif;}                    */
 /* -------------------------------------------------------------------- */
 
-h1,h2,h3,h4,h5 {font-family: 'Lekton', serif;}
+h1,h2,h3,h4,h5 {font-family: 'Montserrat', serif;}
 
 
 /* VIEWS TABLE HEADINGS TEXT... */
