@@ -5,6 +5,17 @@ Designed with the use of tables and blocks in mind. When you need to optimize sc
 ## Documentation
 
 Full documentation will be developed as time and resources permit. Meanwhile, some tips:
+- You may edit the file 'globals.css' (found in the themes/modoc/css folder) to easily change the page width, base font-size, and typefaces.
+- Particularly useful for side menus and blocks: you may add the css class 'hide-overflow' to any block through the UI. this will truncate the contents rather than having them bleed into the body of the next layout column to the right.
+- The logo image is not scaled in css, thus it must be pre-scaled prior to uploading. I have found an image height of 75 to 125 pixels to work well.
+
+## Caveats
+
+- The colr schemes are not fully refined yet - some work is still required. They should be useful, however, as a starting point.
+- For vertical menus, be sure to set the Menu Style to 'Dropdown Menu'in order to make them look good. More work on this is pending.
+### To-Do
+- Move the typ-face and page-width configurations into the Settings UI.
+- Other stuff that comes up as issues come in.
 
 ## Installation
 
