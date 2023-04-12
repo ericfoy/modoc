@@ -8,12 +8,6 @@ a.leaf{
   text-align: center;
 }
 
-.leaf,
-ul.links {
-  list-style-type: none;
-}
-
-
 /*******  Header Menu (usually the account menu) **/
 /**************************************************/
 
@@ -23,6 +17,7 @@ ul.links {
 .header-menu ul {
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .header-menu a {
@@ -65,7 +60,16 @@ ul.links {
   border: 1px !important;
 }
 
+.menu-dropdown ul {
+    
+  border-radius: 10px;
+  box-shadow: 2px 2px 0;
+}
+
+/*
+.block-system-main-menu .first a:hover,
 .block-system-main-menu .leaf a:hover,
+.block-system-main-menu .lst a:hover,
 .block-system-main-menu .active-trail a:hover,
 .block-system-main-menu .active-trail a:focus-visible {
   box-shadow: 2px 2px 0;
@@ -73,17 +77,14 @@ ul.links {
   border-radius: 7px;
   padding: .2em;
 }
-
-/* .block-system-main-menu { position: relative; z-index: 100; } */
-
+*/
 /* This is a total hack, but it works. */
 
 .js .menu-dropdown a, 
 .js .menu-dropdown > li > a.has-submenu,
 .js .menu-dropdown ul li > a.has-submenu,
 .js .menu-dropdown > li.has-children > a {
-  padding-left: 1em;
-  padding-right: 1em;
+  padding: .5em 1em .5em 1em;
   line-height: 1em; 
 }
 .js .menu-dropdown a:hover, 
@@ -98,9 +99,12 @@ ul.links {
 .js .menu-dropdown > li.has-children > a:hover,
 .js .menu-dropdown > li.has-children > a:focus,
 .js .menu-dropdown > li.has-children > a:active {
-  padding-left: .74em;
-  padding-right: .74em;
-  line-height: .75em; 
+  padding: .2em .7em .2em .7em;
+  line-height: 1em; 
+
+  box-shadow: 2px 2px 0;
+  margin: 6px;
+  border-radius: 7px;
 }
 /*
 .block-system-main-menu .leaf a {
@@ -129,25 +133,32 @@ ul.links {
   flex-direction: column;
 } 
 */
+.block-menu-menu-sidebar {
+  z-index: 50;
+}
+
+.block-menu-menu-sidebar li.expanded,
 .block-menu-menu-sidebar li.leaf {
   width: 100%;
-/*  border: 1px solid;
-  border-radius: 5px;
-  margin: .5em;
-  padding: .2em;
-*/  text-align: center;
+  text-align: center;
 }
 
 .block-menu-menu-sidebar ul a {
-  font: 1rem/1.5 sans-serif;
+  font: 1.2rem sans-serif;
+  line-height: 1rem;
   border: 1px solid;
   border-radius: 5px;
   margin: .3em;
-  padding: .2em !important;
+  padding: .3em !important;
   line-height: 1em !important;
 }
 .block-menu-menu-sidebar a:hover {
+  padding: .25em !important;
   box-shadow: 2px 2px 0;
+}  
+.block-menu-menu-sidebar a:active {
+  box-shadow: none;
+  transform: translateY(2px);
 }  
 
 .block-menu-menu-sidebar a.nolink, 

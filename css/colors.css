@@ -85,6 +85,7 @@ body,
 /*   Menu Background         */
 
 .leaf a,
+.expanded a,
 .breadcrumb ol a,
 .block-system-main-menu {
   background: #c8d7d2;
@@ -102,6 +103,7 @@ body,
 /*   Menu Highlight          */
 
 .leaf a:hover,
+.expanded a:hover,
 .header-menu a:hover,
 .block-system-main-menu ul.menu a:hover {
   background-color: #d2e1dc;
@@ -123,6 +125,7 @@ body,
 /*      Menu Text            */
 
 .leaf a,
+.expanded a,
 .breadcrumb ol a,
 .block-system-main-menu ul.menu a,
 .block-system-main-menu ul.menu a:hover {

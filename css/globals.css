@@ -14,7 +14,7 @@ changes manualy be editing this file.
 /* https://www.w3schools.com/cssref/css_units.php                       */ 
 /* -------------------------------------------------------------------- */
 
-.layout {max-width: 1000px;}
+.layout {max-width: 1200px;}
 
 
 /* Set the Page Width... */
@@ -30,7 +30,7 @@ changes manualy be editing this file.
 /* See https://www.w3schools.com/css/css_font_size.asp                  */
 /* -------------------------------------------------------------------- */
 
-html { font-size: 100%; }
+html { font-size: 90%; }
 
 
 /* PAGE BODY TEXT... */
@@ -40,7 +40,7 @@ html { font-size: 100%; }
 /*                                                                      */
 /* body {font: 1rem/1.7 'Open Sans', sans-serif;}                       */
 /* body {font: 1rem/1.7 'Montserrat', sans-serif;}                      */
-/* body {font: 1rem/1.7 'Lekton', serif;}                       */
+/* body {font: 1rem/1.7 'Lekton', serif;}                               */
 /* -------------------------------------------------------------------- */
 
 body {font: 1rem/1.7 'Montserrat', sans-serif;} 
@@ -56,7 +56,7 @@ body {font: 1rem/1.7 'Montserrat', sans-serif;}
 /* h1,h2,h3,h4,h5 {font-family: 'Open Sans', serif;}                    */
 /* -------------------------------------------------------------------- */
 
-h1,h2,h3,h4,h5 {font-family: 'Montserrat', serif;}
+h1,h2,h3,h4,h5 {font-family: 'Lekton', serif;}
 
 
 /* VIEWS TABLE HEADINGS TEXT... */
