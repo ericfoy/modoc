@@ -16,6 +16,7 @@ Full documentation will be developed as time and resources permit. Meanwhile, so
 ### To-Do
 - Move the type-face and page-width configurations into the Settings UI.
 - Other stuff that comes up as issues come in.
+- Establish a documentation portal, and put stuff in it!
 
 ## Installation
 
@@ -53,3 +54,7 @@ All font licenses are available at: http://scripts.sil.org/OFL
 ## License
 
 This project is GPL v2 software. See the LICENSE.txt file in this directory for the complete text.
+
+![screenshot2](https://user-images.githubusercontent.com/60248933/231573586-bb5bf9ae-12e9-4264-9921-2e3552988711.png)
+![screenshot3](https://user-images.githubusercontent.com/60248933/231573659-4b711fa0-09f5-45ef-af57-812d0e00ac0c.png)
+
