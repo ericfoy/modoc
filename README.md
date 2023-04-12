@@ -59,6 +59,4 @@ This project is GPL v2 software. See the LICENSE.txt file in this directory for 
 
 ![screenshot4](https://user-images.githubusercontent.com/60248933/231575264-6b935fdf-2c6e-47ea-855a-9ed9250bad3e.png)
 
-![screenshot3](https://user-images.githubusercontent.com/60248933/231573659-4b711fa0-09f5-45ef-af57-812d0e00ac0c.png)
-
 ![screenshot5](https://user-images.githubusercontent.com/60248933/231575203-13fe669f-b5d4-4a4e-a56d-1bd60ec4c504.png)
