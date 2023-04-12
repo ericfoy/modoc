@@ -11,10 +11,10 @@ Full documentation will be developed as time and resources permit. Meanwhile, so
 
 ## Caveats
 
-- The colr schemes are not fully refined yet - some work is still required. They should be useful, however, as a starting point.
-- For vertical menus, be sure to set the Menu Style to 'Dropdown Menu'in order to make them look good. More work on this is pending.
+- The color schemes are not fully refined yet - some work is still required. They should be useful, however, as a starting point.
+- For vertical menus, be sure to set the Menu Style to 'Dropdown Menu' in order to make them look good. More work on this is pending.
 ### To-Do
-- Move the typ-face and page-width configurations into the Settings UI.
+- Move the type-face and page-width configurations into the Settings UI.
 - Other stuff that comes up as issues come in.
 
 ## Installation
