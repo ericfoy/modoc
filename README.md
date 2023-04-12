@@ -9,12 +9,12 @@ Full documentation will be developed as time and resources permit. Meanwhile, so
 - Particularly useful for side menus and blocks: you may add the css class 'hide-overflow' to any block through the UI. this will truncate the contents rather than having them bleed into the body of the next layout column to the right.
 - The easiest way to get rid of all the block borders is to set the block border color the same as the page background colr.
 - You may also add the following css classes to any block through the admin UI:
-- - border-0 (no border)
-- - border-2 (2px)
-- - border-3 (3px...)
-- - border-5
-- - border-7
-- - border-10
+  - border-0 (no border)
+  - border-2 (2px)
+  - border-3 (3px...)
+  - border-5
+  - border-7
+  - border-10
 - The logo image is not scaled in css, thus it must be pre-scaled prior to uploading. I have found an image height of 75 to 125 pixels to work well.
 
 ## Caveats
