@@ -55,9 +55,10 @@ All font licenses are available at: http://scripts.sil.org/OFL
 ## License
 
 This project is GPL v2 software. See the LICENSE.txt file in this directory for the complete text.
-
+---
 ![screenshot2](https://user-images.githubusercontent.com/60248933/231573586-bb5bf9ae-12e9-4264-9921-2e3552988711.png)
-
+---
 ![screenshot4](https://user-images.githubusercontent.com/60248933/231575264-6b935fdf-2c6e-47ea-855a-9ed9250bad3e.png)
-
+---
 ![screenshot5](https://user-images.githubusercontent.com/60248933/231575203-13fe669f-b5d4-4a4e-a56d-1bd60ec4c504.png)
+---
