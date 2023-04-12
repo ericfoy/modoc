@@ -42,6 +42,7 @@
   margin: 1rem -2vw 0 -2vw;
   flex: 0 0 auto;
 }
+.hide-overflow { overflow:hidden; }
 
 @media (min-width: 34em) {
   .container-fluid,
