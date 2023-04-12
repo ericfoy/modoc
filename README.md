@@ -17,6 +17,7 @@ Full documentation will be developed as time and resources permit. Meanwhile, so
 - Move the type-face and page-width configurations into the Settings UI.
 - Other stuff that comes up as issues come in.
 - Establish a documentation portal, and put stuff in it!
+- Continue the never-ending process of refining and cleaning up the css.
 
 ## Installation
 
