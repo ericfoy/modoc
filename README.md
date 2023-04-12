@@ -2,6 +2,9 @@
 
 Designed with the use of tables and blocks in mind. When you need to optimize screen real estate utilization.
 
+## Documentation
+
+Full documentation will be developed as time and resources permit. Meanwhile, some tips:
 
 ## Installation
 
