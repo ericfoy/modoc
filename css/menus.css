@@ -50,6 +50,13 @@ ul.links {
   margin: 5px 5px 1px;
 }
 
+.block-system-main-menu div:not(.contextual-links-wrapper) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+/*  overflow: hidden; */
+}
+
 .block-system-main-menu a {
   padding: .5rem;
   font-size: 1.4rem;
@@ -58,39 +65,48 @@ ul.links {
   border: 1px !important;
 }
 
-.block-system-main-menu .leaf a:hover {
+.block-system-main-menu .leaf a:hover,
+.block-system-main-menu .active-trail a:hover,
+.block-system-main-menu .active-trail a:focus-visible {
   box-shadow: 2px 2px 0;
   margin: 6px;
   border-radius: 7px;
   padding: .2em;
 }
 
+/* .block-system-main-menu { position: relative; z-index: 100; } */
+
 /* This is a total hack, but it works. */
+
 .js .menu-dropdown a, 
+.js .menu-dropdown > li > a.has-submenu,
+.js .menu-dropdown ul li > a.has-submenu,
+.js .menu-dropdown > li.has-children > a {
+  padding-left: 1em;
+  padding-right: 1em;
+  line-height: 1em; 
+}
 .js .menu-dropdown a:hover, 
 .js .menu-dropdown a:focus, 
 .js .menu-dropdown a:active,
-.js .menu-dropdown > li > a.has-submenu,
 .js .menu-dropdown > li > a.has-submenu:hover,
 .js .menu-dropdown > li > a.has-submenu:focus,
 .js .menu-dropdown > li > a.has-submenu:active,
-.js .menu-dropdown ul li > a.has-submenu,
 .js .menu-dropdown ul li > a.has-submenu:hover,
 .js .menu-dropdown ul li > a.has-submenu:focus,
 .js .menu-dropdown ul li > a.has-submenu:active,
-.js .menu-dropdown > li.has-children > a,
 .js .menu-dropdown > li.has-children > a:hover,
 .js .menu-dropdown > li.has-children > a:focus,
 .js .menu-dropdown > li.has-children > a:active {
-  padding-left: 1em;
-  padding-right: 1em;
-  line-height: .8em;
+  padding-left: .74em;
+  padding-right: .74em;
+  line-height: .75em; 
 }
-
+/*
 .block-system-main-menu .leaf a {
   padding-right: 1em;
 }
-
+*/
 /* I dunno from RTL, but this stuff was in here before 
    I got here, so I figured I'd leave it be...      */
    
