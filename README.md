@@ -39,7 +39,7 @@ Full documentation will be developed as time and resources permit. Meanwhile, so
 
 ## Issues
 
-Bugs and Feature requests should be reported in the [Issue Queue](https://github.com/backdrop-contrib/modoc/issues)
+Bugs and Feature requests should be reported in the [Issue Queue](https://github.com/backdrop-contrib/modoc/issues) (doesn't exist yet).
 
 
 ## Current Maintainers
