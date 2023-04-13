@@ -163,7 +163,7 @@ $info = array(
         'sortcol' => '#fae6af',
       ),
     ),
-    'usaf' => array(
+    'cga' => array(
       'title' => t('CGA'),
       'colors' => array(
         'text' => '#f4ff6f',
