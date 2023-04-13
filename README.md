@@ -72,9 +72,10 @@ All font licenses are available at: http://scripts.sil.org/OFL
 
 This project is GPL v2 software. See the LICENSE.txt file in this directory for the complete text.
 ---
-![screenshot6](https://user-images.githubusercontent.com/60248933/231640507-8b8fc690-e65d-43f0-9d11-275621226bfd.png)
+![screenshot6](https://user-images.githubusercontent.com/60248933/231883600-3a2a74f5-6d84-4a03-b1c2-2d216425763d.png)
 ---
 ![screenshot4](https://user-images.githubusercontent.com/60248933/231575264-6b935fdf-2c6e-47ea-855a-9ed9250bad3e.png)
 ---
 ![screenshot5](https://user-images.githubusercontent.com/60248933/231575203-13fe669f-b5d4-4a4e-a56d-1bd60ec4c504.png)
 ---
+
