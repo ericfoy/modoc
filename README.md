@@ -1,6 +1,8 @@
 # Modoc
 
-Designed with the use of tables and blocks in mind. When you need to optimize screen real estate utilization.
+- Designed with the use of tables and blocks in mind. 
+- When you need to optimize screen real estate utilization.
+- Makes an excellent admin theme, as well.
 
 ## Documentation
 
@@ -49,7 +51,7 @@ Bugs and Feature requests should be reported in the [Issue Queue](https://github
 
 ## Credits
 
-Inspired by the Monochrome theme, adapted and refactored by ericfoy.
+Modoc was inspired by the Monochrome theme, adapted and refactored by ericfoy.
 Thanks, [Indigoxela](https://github.com/indigoxela), for the springboard.
 
 The Lekton font was designed at [ISIA Urbino.](https://isiaurbino.net/istituto/english)
