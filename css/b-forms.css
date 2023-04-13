@@ -68,17 +68,16 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-  /*font: 1rem/1.5 sans-serif;*/
   border: 1px solid;
-  margin: .5rem 1rem .5rem 0;/* LTR */
-  padding: .2rem .5rem;
+  margin: .5em 1em .5em 0;
+  padding: .2em .5em;
   border-radius: 5px;
 }
 [dir="rtl"] button,
 [dir="rtl"] [type="button"],
 [dir="rtl"] [type="reset"],
 [dir="rtl"] [type="submit"] {
-  margin: .5rem 0 .5rem 1rem;
+  margin: .5em 0 .5em 1em;
 }
 
 button:hover,
@@ -124,6 +123,11 @@ a.form-cancel:hover,
 a.form-cancel:focus {
   outline: none;
   box-shadow: 2px 2px 0;
+  text-decoration: none;
+}
+
+.button a:active {
+  transform: translateY(2px);
 }
 
 .vertical-tab-item {
