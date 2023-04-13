@@ -12,8 +12,8 @@ Full documentation will be developed as time and resources permit. Meanwhile, so
   - border-0 (no border)
   - border-2 (2px)
   - border-3 (3px...)
-  - border-5   .
-  - border-7   .
+  - border-5
+  - border-7
   - border-10 (10px)
   - combine any of the above with 'hide-overflow' (separated by a space)
 - The logo image is not scaled in css, thus it must be pre-scaled prior to uploading. I have found an image height of 75 to 125 pixels to work well.
