@@ -20,7 +20,7 @@ Full documentation will be developed as time and resources permit. Meanwhile, so
 
 ## Caveats
 
-- The color schemes are not fully refined yet - some work is still required. They should be useful, however, as a starting point.
+- ~~The color schemes are not fully refined yet - some work is still required. They should be useful, however, as a starting point.~~by
 - For vertical menus, be sure to set the Menu Style to 'Dropdown Menu' in order to make them look good. More work on this is pending.
 - More testing is required to make sure that menus work in every layout implementation, etc.
 ### To-Do
