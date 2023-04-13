@@ -28,6 +28,7 @@ Full documentation will be developed as time and resources permit. Meanwhile, so
 - Other stuff that comes up as issues come in.
 - Establish a documentation portal, and put stuff in it!
 - Continue the never-ending process of refining and cleaning up the css.
+- etc.
 
 ## Installation
 
