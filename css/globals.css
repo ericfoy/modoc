@@ -14,10 +14,10 @@ changes manualy be editing this file.
 /* https://www.w3schools.com/cssref/css_units.php                       */ 
 /* -------------------------------------------------------------------- */
 
-.layout {max-width: 1200px;}
+.layout {max-width: 3200px;}
 
 
-/* Set the Page Width... */
+/* SET THE PAGE WIDTH... */
 /* -------------------------------------------------------------------- */
 /* You may edit the line below to set the basic font size for your site.*/
 /* You may enter units of % (percentage of the browsers built-in base   */
@@ -35,7 +35,7 @@ html { font-size: 90%; }
 
 /* PAGE BODY TEXT... */
 /* -------------------------------------------------------------------- */
-/* Copy one of these lines into the clear are below this comment block. */
+/* Copy one of these lines into the clear area below this comment block.*/
 /* -this will override the default which is defined in contents.css     */
 /*                                                                      */
 /* body {font: 1rem/1.7 'Open Sans', sans-serif;}                       */
@@ -43,12 +43,12 @@ html { font-size: 90%; }
 /* body {font: 1rem/1.7 'Lekton', serif;}                               */
 /* -------------------------------------------------------------------- */
 
-body {font: 1rem/1.7 'Montserrat', sans-serif;} 
+body {font: 1rem/1.7 'Open Sans', sans-serif;} 
 
 
 /* NODE TITLE and BLOCK HEADINGS TEXT... */
 /* -------------------------------------------------------------------- */
-/* Copy one of these lines into the clear are below this comment block. */
+/* Copy one of these lines into the clear area below this comment block.*/
 /* -this will override the default which is defined in contents.css     */
 /*                                                                      */
 /* h1,h2,h3,h4,h5 {font-family: 'Lekton', serif;}                       */
@@ -59,9 +59,39 @@ body {font: 1rem/1.7 'Montserrat', sans-serif;}
 h1,h2,h3,h4,h5 {font-family: 'Lekton', serif;}
 
 
+/* MAIN MENU TEXT... */
+/* -------------------------------------------------------------------- */
+/* Copy one of these lines into the clear area below this comment block.*/
+/* -this will override the default which is defined in contents.css     */
+/*                                                                      */
+/* .block-system-main-menu a {font-family: 'Lekton', serif;}            */
+/* .block-system-main-menu a {font-family: 'Montserrat', serif;}        */
+/* .block-system-main-menu a {font-family: 'Open Sans', sans serif;}    */
+/* .block-system-main-menu a {font-family: 'News Cycle', serif;}        */
+/* .block-system-main-menu a {font-family: 'Bench Nine', serif;}        */
+/* -------------------------------------------------------------------- */
+
+.block-system-main-menu a { font-family: 'Lekton', serif; }
+
+
+/* SIDE BAR MENU TEXT... */
+/* -------------------------------------------------------------------- */
+/* Copy one of these lines into the clear area below this comment block.*/
+/* -this will override the default which is defined in contents.css     */
+/*                                                                      */
+/* .block-system-main-menu a {font-family: 'Lekton', serif;}            */
+/* .block-system-main-menu a {font-family: 'Montserrat', serif;}        */
+/* .block-system-main-menu a {font-family: 'Open Sans', sans serif;}    */
+/* .block-system-main-menu a {font-family: 'News Cycle', serif;}        */
+/* .block-system-main-menu a {font-family: 'Bench Nine', serif;}        */
+/* -------------------------------------------------------------------- */
+
+.block-menu-menu-sidebar a { font-family: 'Montserrat', serif;} 
+    
+    
 /* VIEWS TABLE HEADINGS TEXT... */
 /* -------------------------------------------------------------------- */
-/* Copy one of these lines into the clear are below this comment block. */
+/* Copy one of these lines into the clear area below this comment block.*/
 /* -this will override the default which is defined in contents.css     */
 /*                                                                      */
 /* th {font-family: 'News Cycle', sans-serif;}   /* narrow */           */

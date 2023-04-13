@@ -55,7 +55,7 @@ a.leaf{
 .block-system-main-menu a {
   padding: .5rem;
   font-size: 1.4rem;
-  font-family: 'Lekton', serif;
+ /* font-family: 'Lekton', serif; */
   font-weight: 700 !important;
   border: 1px !important;
 }
@@ -144,12 +144,12 @@ a.leaf{
 }
 
 .block-menu-menu-sidebar ul a {
-  font: 1.2rem sans-serif;
+  font: 1rem;
   line-height: 1rem;
   border: 1px solid;
   border-radius: 5px;
   margin: .3em;
-  padding: .3em !important;
+  padding: .36em !important;
   line-height: 1em !important;
 }
 .block-menu-menu-sidebar a:hover {
