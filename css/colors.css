@@ -110,6 +110,7 @@ body,
 }
 
 .button:hover,
+ul.links.inline a:hover,
 .menu-dropdown ul a:hover,
 .menu-dropdown ul a:focus,
 .menu-dropdown ul a:active,
