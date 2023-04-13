@@ -8,7 +8,7 @@ Full documentation will be developed as time and resources permit. Meanwhile, so
 - You may edit the file 'globals.css' (found in the themes/modoc/css folder) to easily change the page width, base font-size, and typefaces.
 - Particularly useful for side menus and blocks: you may add the css class 'hide-overflow' to any block through the UI (see below). this will truncate the contents rather than having them bleed into the body of the next layout column to the right.
 - The easiest way to get rid of all the block borders is to set the block border color the same as the page background color.
-- The default block border width id one pixel. To change that, you may add the following css classes to any block through the admin UI (configure block | style | default -> additional css classes):
+- The default block border width is one pixel. To change that, you may add the following css classes to any block through the admin UI (Configure Block | Style Settings | Style:Default -> Additional CSS Classes):
   - border-0 (no border)
   - border-2 (2px)
   - border-3 (3px...)
