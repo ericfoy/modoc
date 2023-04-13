@@ -45,47 +45,6 @@ h6 {
   font-size: .9rem;
   margin: .5rem 0;
 }
-/***** below Added by -EFoy */
-.block {
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 7px;
-    padding-left: 10px;
-    padding-right: 5px;
-    margin: 0.5rem;
-}
-.block-title {
-    text-decoration: underline;
-    margin: 0;
-}
-.block-system-header {
-    overflow: auto;
-}
-.block-system-header ul.links {
-    float:right;
-}
-
-.block-system-messages,
-.no-border,
-.border-0 {
-    border-style: none;
-}
-.border-2{
-    border-width: 2px;
-}
-.border-3{
-    border-width: 3px;
-}
-.border-5{
-    border-width: 5px;
-}
-.border-7{
-    border-width: 7px;
-}
-.border-10{
-    border-width: 10px;
-}
-/***** above Added by -EFoy */
 
 pre {
   max-width: 100%;
@@ -131,4 +90,51 @@ blockquote::before {
   top: 0;
   left: 0; /* LTR */
 }
+/***** below Added by -EFoy */
+.block {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin: 0.5rem;
+}
+.block-title {
+    text-decoration: underline;
+    margin: 0;
+}
+.block-system-header {
+    overflow: auto;
+}
+.block-system-header ul.links {
+    float:right;
+}
 
+.block-system-messages,
+.no-border,
+.border-0 {
+    border-style: none;
+}
+.border-2{
+    border-width: 2px;
+}
+.border-3{
+    border-width: 3px;
+}
+.border-5{
+    border-width: 5px;
+}
+.border-7{
+    border-width: 7px;
+}
+.border-10{
+    border-width: 10px;
+}
+
+.field-label {
+  margin-right: .5em;
+}
+
+.field-name-field-tags .field-label {
+  margin-right: 1em;
+}
