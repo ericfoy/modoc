@@ -26,5 +26,5 @@ stylesheets[all][] = css/globals.css
 settings[color] = true
 
 project = modoc
-version = 1.x-0.4.0-alpha
+version = 1.x-1.0.0-alpha
 
