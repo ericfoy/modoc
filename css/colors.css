@@ -14,6 +14,7 @@
     Menu Highlight      d2e1dc    #d2e1dc
     Table Rows          e6e6e6    #e6e6e6
     Active Sort Column  dcdcdc    #dcdcdc
+    Table Headings      dcdcdc    #dcdcdc
     
 */    
 
@@ -53,6 +54,10 @@ body,
   background-color: #ffffff;
 }
 
+tr.even {
+  background-color: #ffffff;
+}
+
 /*---------------------------*/
 /*   Header Background       */
 
@@ -84,11 +89,19 @@ body,
 /*---------------------------*/
 /*   Menu Background         */
 
-.leaf a,
-.expanded a,
+.menu-dropdown .leaf a,
+.menu-dropdown .expanded a,
 .breadcrumb ol a,
+.form-checkbox,
 .block-system-main-menu {
   background: #c8d7d2;
+}
+
+/* Button Background, same as Menu Background */
+.button,
+ul.links.inline a {
+  background: #c8d7d2;
+    
 }
 /*
 .block-system-main-menu {
@@ -114,7 +127,7 @@ ul.links.inline a:hover,
 .menu-dropdown ul a:hover,
 .menu-dropdown ul a:focus,
 .menu-dropdown ul a:active,
-.menu-dropdown ul a.highlighted {
+.menu-dropdown ul a .highlighted {
   background: #d2e1dc;
 }
 /*
@@ -153,3 +166,9 @@ td.active {
   background-color: #dcdcdc;
 }
 
+/*---------------------------*/
+/*   Table Heading Row      */
+
+th {
+  background-color: #dcdcdc;
+}
