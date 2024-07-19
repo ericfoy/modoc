@@ -23,7 +23,7 @@ Meanwhile, here are some tips:
 
 ## Caveats
 
-- For vertical menus, be sure to set the Menu Style to 'Dropdown Menu' in order to make them look good. More work on this is pending.
+- For vertical menus, you may want to set the Menu Style to 'Dropdown Menu' in order to make them look good. More work on this is pending.
 - More testing is required to make sure that menus work in every layout implementation, etc.
 ### To-Do
 - Add a box and button corner radius selection, for more styling options.
